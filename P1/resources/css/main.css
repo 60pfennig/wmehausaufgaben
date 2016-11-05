@@ -1,0 +1,89 @@
+body, html {
+    background-color: #ffffff;
+    padding:0;
+}
+
+div {
+    margin:0;
+    padding:0;
+}
+
+#site-wrapper {
+    	width: 100%;	
+	margin:auto;
+    padding: 0;
+}
+
+header {
+    padding:0;
+    margin:0;
+}
+
+header nav {
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    float: right;
+    width: 99.8%;
+    min-width:900px;
+    height: 7%;
+    background-color: #E6E6E6;
+    margin:0;
+    margin-bottom: 1%;
+    padding:0;
+    border: 1px solid #C6C6C6;
+}
+
+
+
+#navlist {
+    list-style-type: none;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    margin: 0 0 0 16%;
+    padding: 0;
+    border: 0;
+    width:84%;
+}
+
+
+.nav_item {
+    float:left;
+    border-right: 1px solid #C6C6C6;
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
+    height:98%;
+    width: 8%;
+}
+
+.nav_item:last-child{
+    border-right: 1px solid #C6C6C6;
+}
+
+
+.nav_item > a {
+    display: block;
+   margin: 0;
+   text-decoration: none;
+   text-align: center;
+   line-height: 460%;
+   color: 000;
+}
+
+#logoitem{
+  
+    width:12%;
+}
+
+#logo{
+    display: block;
+    background-color: #E6E6E6;
+    background-image: url("../img/logo1.png");
+    background-size: 100% 100%;
+    width:80%;
+    height:98%;
+    padding:0;
+}
